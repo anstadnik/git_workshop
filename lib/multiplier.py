@@ -1,2 +1,21 @@
+import doctest
+
 def multiplier(n: int) -> int:
+    """
+    This function returns a number, multiplied by 2
+
+    :param n int: n
+    :rtype int: n * 2
+
+    >>> multiplier(2)
+    4
+    >>> multiplier(3)
+    6
+    """
     return n * 2
+
+def main():
+    doctest.testmod(raise_on_error=True)
+
+if __name__ == "__main__":
+    main()
