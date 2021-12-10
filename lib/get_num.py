@@ -10,6 +10,6 @@ def get_num():
         try:
             num = int(num)
             return num
-        except ValueError as e:
-            print(f"Wrong input: {e}")
+        except ValueError as err:
+            print(f"Wrong input: {err}")
             print()

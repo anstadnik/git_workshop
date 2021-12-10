@@ -1,7 +1,7 @@
 """This module contains a multiplication logic"""
 import doctest
 
-def multiplier(n: int) -> int:
+def multiplier(num: int) -> int:
     """
     This function returns a number, multiplied by 2
 
@@ -13,7 +13,7 @@ def multiplier(n: int) -> int:
     >>> multiplier(3)
     6
     """
-    return n * 2
+    return num * 2
 
 def main():
     """
