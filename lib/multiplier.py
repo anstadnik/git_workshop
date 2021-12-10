@@ -1,3 +1,4 @@
+"""This module contains a multiplication logic"""
 import doctest
 
 def multiplier(n: int) -> int:
@@ -15,6 +16,10 @@ def multiplier(n: int) -> int:
     return n * 2
 
 def main():
+    """
+    Main function, needed for doctest
+
+    """
     doctest.testmod(raise_on_error=True)
 
 if __name__ == "__main__":

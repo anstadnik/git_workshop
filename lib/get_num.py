@@ -1,3 +1,5 @@
+"""This module contains logic for interaction with the user"""
+
 def get_num():
     """
     This function asks for an input
